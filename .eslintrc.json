@@ -1,0 +1,18 @@
+{
+    "env":{
+        "browser":true,
+        "es2022" :true
+    },
+    "extends":[
+        "plugin:jsx-a11y/recommended"
+    ],
+    "parserOption":{
+        "sourceType":"module"
+    },
+    "plugins":[
+        "jsx-a11y"
+    ],
+    "rules":{
+        "jsx-a11/alt-text":"warn"
+    }
+}
